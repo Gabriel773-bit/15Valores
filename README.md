@@ -1,1 +1,19 @@
-# 15Valores
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var bebidas = ["Café", "Achocolatado", "Capuccino", "Nescau", "Café com leite", "Chá de Leão","Água", "Suco de uva","Suco de maracuja","suco de morango","Suco de laranja",
+        "Vinho","CocaCola", "CocaZero", "Guarana Antartica", "CocaCola Zero"]
+
+        var bebidaEscolhida = parseInt(prompt("Escolha uma bebida do cardapio")) 
+
+        document.write("Bebida escolhida:" + bebidas[bebidaEscolhida])
+
+    </script>
+</body>
+</html>
