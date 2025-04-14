@@ -13,7 +13,6 @@
         var bebidaEscolhida = parseInt(prompt("Escolha uma bebida do cardapio")) 
 
         document.write("Bebida escolhida:" + bebidas[bebidaEscolhida])
-
     </script>
 </body>
 </html>
